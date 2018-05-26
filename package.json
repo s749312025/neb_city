@@ -1,0 +1,35 @@
+{
+  "name": "city-intro",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "s749312025 <749312025@qq.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "babel-plugin-component": "^1.1.1",
+    "bideo.js": "^1.0.0",
+    "element-ui": "^2.3.9",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "moment": "^2.22.1",
+    "nebpay": "^0.0.5",
+    "nebulas": "^0.5.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "sweet-modal-vue": "^2.0.0",
+    "vue-antd": "^0.2.9"
+  }
+}
