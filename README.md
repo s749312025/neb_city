@@ -1,6 +1,8 @@
 # city-intro
 
-> Nuxt.js project
+> neb_city 项目
+
+参加星云的开发计划
 
 ## Build Setup
 
