@@ -270,6 +270,10 @@ export default {
             }
             var change = (key, value) => {
                 this[key] = value
+                if(value && value.length > 0) {
+                    this.cityName = '杭州'
+                    this.getComment('杭州')
+                }
             }
             neb.api.call(from,dappAddress,value,nonce,gas_price,gas_limit,contract).then(function (resp) {
                 const result = JSON.parse(resp.result)
